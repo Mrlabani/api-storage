@@ -25,8 +25,8 @@ function saveStorage(files) {
 }
 
 export default async function handler(req, res) {
-  const botToken = 'YOUR_TELEGRAM_BOT_TOKEN';
-  const chatId = 'YOUR_LOG_CHANNEL_ID';
+  const botToken = '7092828350:AAEDO4OckWxzCeoZptBId3fo4le4CX_6yoE';
+  const chatId = '-1002428562251';
 
   const form = new formidable.IncomingForm({ multiples: true });
   form.parse(req, async (err, fields, files) => {
