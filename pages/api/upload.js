@@ -10,8 +10,8 @@ export const config = {
   },
 };
 
-const botToken = 'YOUR_TELEGRAM_BOT_TOKEN';
-const chatId = 'YOUR_LOG_CHANNEL_ID';
+const botToken = '7092828350:AAEDO4OckWxzCeoZptBId3fo4le4CX_6yoE';
+const chatId = '-1002428562251';
 const STORAGE_PATH = path.resolve('./public/files.json');
 
 function loadStorage() {
